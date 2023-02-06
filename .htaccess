@@ -19,6 +19,8 @@ ErrorDocument 404 /_includes/errors/404.php?uri=%{REQUEST_URI}
 
 # Handle IIS bug which created links to /DEVELOPER instead of /developer
 RedirectMatch "/DEVELOPER(.*)" "/developer$1"
+RedirectMatch "/developer/ENGINE(.*)" "/developer/engine$1"
+RedirectMatch "/developer/engine/WEB(.*)" "/developer/engine/web$1"
 
 # versioning: these rules automatically redirect /foo/current-version to the
 # newest version of the documentation under /foo, e.g. 13.0, /foo/13.0, and fall
