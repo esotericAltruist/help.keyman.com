@@ -19,6 +19,8 @@
 */
   require_once __DIR__ . '/../autoload.php';
 
+  \Keyman\Site\Common\HelpSiteEnvironment::Init();
+
   if(file_exists($_SERVER['DOCUMENT_ROOT'].'/cdn/deploy/cdn.php')) {
     require_once($_SERVER['DOCUMENT_ROOT'].'/cdn/deploy/cdn.php');
   }
