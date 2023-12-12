@@ -4,7 +4,7 @@
   namespace Keyman\Site\Common;
 
   use Keyman\Site\Common\KeymanSiteEnvironment;
-  
+
   class HelpSiteEnvironment extends KeymanSiteEnvironment {
     public static
       // help.keyman.com
@@ -17,3 +17,5 @@
       KeymanSiteEnvironment::Debug(get_class());
     }
   }
+
+  HelpSiteEnvironment::Init();
