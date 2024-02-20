@@ -226,4 +226,5 @@ RewriteRule "^(.+)/$" "$1/index.php" [END]
 # Finally, append the terminating slash for folders, given it is no longer
 # done automatically because we put DirectorySlash off
 RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond "%{DOCUMENT_ROOT}/$1/$2.php" !-f
 RewriteRule "^(.*)([^/])$" "$1$2/" [R]
