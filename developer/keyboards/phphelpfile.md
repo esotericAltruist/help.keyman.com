@@ -56,6 +56,7 @@ which is transferred to the `bj_cree_east.php` file as:
 END;
 
 ```
+Make sure to move your reformatted CSS inside your `<?php ?>` tag so that the browser correctly recognizes this as PHP.
 
 ## Dynamically Constructed Keyboard Images
 
