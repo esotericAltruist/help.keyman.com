@@ -286,7 +286,7 @@
       <tr>
         <td><kbd><</kbd></td>
         <td class='combo'>+</td>
-        <td><kbd><kbd><</kbd></kbd></td>
+        <td><kbd><</kbd></td>
         <td class='combo'>=</td>
         <td>«</td>
       </tr>
